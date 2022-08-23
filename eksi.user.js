@@ -9,6 +9,8 @@
 // @grant unsafeWindow
 // @grant GM_xmlhttpRequest
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js
+// @downloadURL  https://github.com/masterofthesith/eksisozlukwider/raw/main/eksi.user.js
+// @updateURL    https://github.com/masterofthesith/eksisozlukwider/raw/main/eksi.user.js
 // ==/UserScript==
 
 (function() {
