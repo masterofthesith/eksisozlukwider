@@ -9,14 +9,38 @@
 // @grant unsafeWindow
 // @grant GM_xmlhttpRequest
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js
-// @downloadURL  https://github.com/masterofthesith/eksisozlukwider/raw/main/eksi.user.js
-// @updateURL    https://github.com/masterofthesith/eksisozlukwider/raw/main/eksi.user.js
 // ==/UserScript==
-
+function GM_addStyle(css) {
+  const style = document.getElementById("GM_addStyleBy8626") || (function() {
+    const style = document.createElement('style');
+    style.type = 'text/css';
+    style.id = "GM_addStyleBy8626";
+    document.head.appendChild(style);
+    return style;
+  })();
+  const sheet = style.sheet;
+  sheet.insertRule(css, (sheet.rules || sheet.cssRules || []).length);
+}
 (function() {
     'use strict';
-    $(document).find("header #top-bar").css("width","1540px");
-    $(document).find("#container, .container").css({"width":"100%","max-width":"1540px"});
+    GM_addStyle("@import url(https://use.typekit.net/jxr8xbn.css);");
+    GM_addStyle("* { box-sizing: border-box!important}");
+    GM_addStyle("html>body>header #top-bar { background: url(https://zqwqz.org/css/navbg.jpg)!important; }");
+    GM_addStyle("body { font-family:'proxima-nova'!important; font-weight:400!important;}");
+    GM_addStyle("#sub-navigation { border-top:  1px solid #343434!important; box-shadow: 0 1px 3px rgb(0 0 0 / 30%)!important }");
+    GM_addStyle("#container { background-image: url(https://zqwqz.org/css/imperialforce/bg.jpg)!important; background-size:cover!important; background-attachment: fixed!important; }");
+    GM_addStyle("header #top-bar { width:100%!important; }");
+    GM_addStyle("#container, .container { width:100%!important; max-width:100%!important; padding:0 15px!important}");
+    GM_addStyle("section#content-body { width:100%!important; margin:0!important; padding:25px!important; }");
+    GM_addStyle("#logo a { background-image: url(https://i.imgur.com/XpwiIwd.png)!important; position: relative!important; width:200px!important; background-size:90% auto!important; margin: 0 auto!important;");
+    GM_addStyle("#sub-navigation>ul>li { max-width: calc(100% / 14)!important; width:100%!important;text-transform: uppercase!important;font-weight:400!important;");
+    GM_addStyle("h1 a {color:#83c24f!important; font-weight:400!important;}");
+    GM_addStyle("#entry-item-list .content, #matter-index-item-list .content, #matter-content .content, #matter-answer-content .content, #pinned-entry .content, #matter-answer-index-item-list .content, #matter-answer-list .content { font-weight:300!important; }");
+    $(document).on("ready",function() {
+    $(document).find("header #top-bar").css("width","100%!important");
+    $(document).find("#container, .container").css({"width":"100%!important","max-width":"100%!important","padding":"0 15px!important"});
     $(document).find("aside#aside").remove();
-    $(document).find("section#content-body").css("width","1260px");
+    $(document).find("section#content-body").css({"width":"100%!important","margin":"0","padding":"25px"});
+    $(document).find("#nav-extra-buttons").remove();
+    });
 })();
