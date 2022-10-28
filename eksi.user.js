@@ -6,6 +6,8 @@
 // @author       masterofthesith
 // @match        https://eksisozluk.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=eksisozluk.com
+// @downloadURL  https://github.com/masterofthesith/eksisozlukzikutema/raw/main/eksi.user.js
+// @updateURL    https://github.com/masterofthesith/eksisozlukzikutema/raw/main/eksi.user.js
 // @grant unsafeWindow
 // @grant GM_xmlhttpRequest
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js
