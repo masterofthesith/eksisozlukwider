@@ -33,7 +33,7 @@ function GM_addStyle(css) {
     GM_addStyle("* { box-sizing: border-box!important}");
     GM_addStyle("html, body { min-height:100vh; height:100%; background-color:#151515!important; }");
     GM_addStyle("html>body>header #top-bar { background: url(https://zqwqz.org/css/navbg.jpg)!important; }");
-    GM_addStyle("body { font-family: 'proxima-nova',sans-serif!important; font-stretch: condensed; font-weight:400!important;}");
+    GM_addStyle("body { font-family: 'proxima-nova',sans-serif!important; font-stretch: condensed!important; font-weight:400!important;}");
     GM_addStyle("#sub-navigation { border-top:  1px solid #343434!important; box-shadow: 0 1px 3px rgb(0 0 0 / 30%)!important }");
     GM_addStyle("#container { background-image: url(https://zqwqz.org/css/imperialforce/bg.jpg)!important; background-size:cover!important; background-attachment: fixed!important; background-color:#151515!important;}");
     GM_addStyle("header #top-bar { width:100%!important; }");
