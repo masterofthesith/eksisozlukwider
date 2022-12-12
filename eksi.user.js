@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ek$i sözlük wider
 // @namespace    https://github.com/masterofthesith/eksisozlukwider
-// @version      0.24
+// @version      0.25
 // @description  büyük ekranlar için ekşi wider
 // @author       masterofthesith
 // @match        https://eksisozluk.com/*
