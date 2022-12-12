@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ek$i sözlük wider
 // @namespace    https://github.com/masterofthesith/eksisozlukwider
-// @version      0.22
+// @version      0.23
 // @description  büyük ekranlar için ekşi wider
 // @author       masterofthesith
 // @match        https://eksisozluk.com/*
@@ -30,12 +30,15 @@ function GM_addStyle(css) {
     GM_addStyle(":root::-webkit-scrollbar-track {background: 0 0;box-sizing: border-box}");
     GM_addStyle(":root::-webkit-scrollbar-thumb {border-radius: 8px;border: 4px solid #0000;background-clip: content-box;background-color: #aaa}");
     GM_addStyle("* {box-sizing: border-box!important}");
+    GM_addStyle(".topic-list li>a { color: #bdbdbd!important }");
     GM_addStyle("html, body {min-height:100vh; height:100%; background-color:#151515!important;}");
     GM_addStyle("html>body>header #top-bar {background: url(https://zqwqz.org/css/navbg.jpg)!important;}");
     GM_addStyle("body {font-family: 'proxima-nova',sans-serif!important; font-stretch: condensed!important; font-weight:400!important;}");
     GM_addStyle("#sub-navigation {border-top:  1px solid #343434!important; box-shadow: 0 1px 3px rgb(0 0 0 / 30%)!important }");
     GM_addStyle("#container {background-image: url(https://zqwqz.org/css/imperialforce/bg.jpg)!important; background-size:cover!important; background-attachment: fixed!important; background-color:#151515!important;}");
     GM_addStyle("header #top-bar {width:100%!important;}");
+    GM_addStyle("#index-filter-prefs, #index-filter-prefs-mobile { background:#62c05c!important}");
+    GM_addStyle("html.no-touch .topic-list li>a:hover { background-color:#1f1f1f!important }");
     GM_addStyle("#search-form { border-radius: 0!important; margin:12px 0 0 25px!important;}");
     GM_addStyle("#search-form #search-textbox { border-radius: 0!important; background-color: #343434!important;height:34px!important; line-height:34px!important; color:#fff!important;}");
     GM_addStyle("#search-form button[type=submit] { border-radius: 0!important; height:34px!important; line-height:34px!important;}");
