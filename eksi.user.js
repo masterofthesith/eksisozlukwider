@@ -26,6 +26,7 @@ function GM_addStyle(css) {
 (function() {
     'use strict';
     GM_addStyle("@import url(https://use.typekit.net/jxr8xbn.css);");
+    GM_addStyle("@import url(https://ekstat.com/css/ek$i-dark-e9f1396e6e93cecf.css);");
     GM_addStyle(":root::-webkit-scrollbar {width: 16px}");
     GM_addStyle(":root::-webkit-scrollbar-track {background: 0 0;box-sizing: border-box}");
     GM_addStyle(":root::-webkit-scrollbar-thumb {border-radius: 8px;border: 4px solid #0000;background-clip: content-box;background-color: #aaa}");
