@@ -1,8 +1,6 @@
 # ek$i sözlük Wide Görünüm
 ------
-büyük ekranlar için wide bir ekşi sözlük gereksiz alanlarıda yok ediyoruz.
-tampermonkey scriptidir. 
----
+büyük ekranlar için wide bir ekşi sözlük gereksiz alanlarıda yok ediyoruz. tampermonkey scriptidir. 
 
 ![1](https://github.com/masterofthesith/eksisozlukzikutema/assets/50755018/eb5fe8f8-ae04-4c3b-bb7a-c8b41d566623)
 
