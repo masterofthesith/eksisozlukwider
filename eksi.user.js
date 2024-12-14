@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ek$i sözlük wider
-// @namespace    https://github.com/masterofthesith/eksisozlukwider
-// @version      0.24
+// @namespace    https://github.com/masterofthesith/eksisozlukzikutema
+// @version      0.25
 // @description  büyük ekranlar için ekşi wider
 // @author       masterofthesith
 // @include      *eksisozluk*
@@ -21,7 +21,7 @@
     'use strict';
     var $ = window.jQuery || {};
     GM_addStyle("@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');");
-    GM_addStyle("@import('ttps://ekstat.com/css/ek$i-dark-0f11017889e66055.css');");
+    GM_addStyle("@import('https://raw.githubusercontent.com/masterofthesith/eksisozlukzikutema/refs/heads/main/dark.css');");
     GM_addStyle(":root::-webkit-scrollbar {width: 16px}");
     GM_addStyle(":root::-webkit-scrollbar-track {background: 0 0;box-sizing: border-box}");
     GM_addStyle(":root::-webkit-scrollbar-thumb {border-radius: 8px;border: 4px solid #0000;background-clip: content-box;background-color: #aaa}");
